@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1321
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "SeleniumLearn", "SeleniumLearn.pyproj", "{B4BDBB2E-4BE2-48DE-9CD8-0C40C98AB4C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4BDBB2E-4BE2-48DE-9CD8-0C40C98AB4C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4BDBB2E-4BE2-48DE-9CD8-0C40C98AB4C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76AF33B0-ECDC-4823-897A-EA918ECF374B}
+	EndGlobalSection
+EndGlobal
