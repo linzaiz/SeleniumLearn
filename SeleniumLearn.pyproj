@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{b4bdbb2e-4be2-48de-9cd8-0c40c98ab4c9}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>baidu1.py</StartupFile>
+    <StartupFile>TB1_Pineapple_C.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -20,6 +20,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="baidu1.py" />
+    <Compile Include="Selenium+pyQuery1.py" />
+    <Compile Include="TB1_Pineapple_C.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="CondaEnv|CondaEnv|spider" />

@@ -3,6 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
+import pyquery as pq
 
 option = webdriver.ChromeOptions()
 option.binary_location = r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
@@ -20,6 +21,8 @@ try:
     print(browser.current_url)
     print(browser.get_cookies())
     print(browser.page_source)
+    doc = pq(browser.page_source)
+    items = doc('.div')
 
 except Exception as e:
     print(e.message())
